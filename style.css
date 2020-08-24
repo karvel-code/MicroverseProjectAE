@@ -1,44 +1,69 @@
-#survey-form{
+#container{
     width: 50% ;
+    min-height: 500px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#survey-form{
+    width: 90%;
     border: 1px solid #2b2946;
     background-color:#2b2946 ;
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding:4%;
-
+    border-radius: 5px;
 }
+
 #title{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: xx-large;
-    width: 40%;
+    width: 100%;
     margin: auto;
     margin-bottom: 1%;
     color: white;
-
-
 }
+
 #description{
     font-style: italic;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-    width: 40%;
+    width: 100%;
     margin: auto;
     text-align: center;
-    margin-bottom: 2%;
+   margin-bottom: 10%;
     color: white;
 }
+
+.element{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
 #name, #email, #age, #role, #favorite, #comment,#submit{
-    width: 90%;
+    width: 100%;
     border-radius: 5px;
 }
+
 #submit{
     background-color: #37af65;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 body{
     background-image:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
     background-repeat: round;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+}
+
+span{
+   font-size: small; 
 }
